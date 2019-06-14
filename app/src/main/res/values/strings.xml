@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Test Tweeter</string>
+    <string name="Login_To_Twitter">Login To Twitter</string>
+    <string name="no_information">No Information!</string>
+    <string name="no_active_user">No Active user!</string>
+    <string name="get_followers_info">Get Followers Info</string>
+    <string name="com.twitter.sdk.android.CONSUMER_KEY">B57jDAzKvBJigwuW4lYoCkL6Q</string>
+    <string name="com.twitter.sdk.android.CONSUMER_SECRET">K1wqqcuh66BfhbeQgDk8qnVTrrMcX1Si2Woswn2PxR4Q8YWDOz</string>
+</resources>

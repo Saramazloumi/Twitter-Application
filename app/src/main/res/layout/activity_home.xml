@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".HomeActivity">
+
+
+    <TextView
+        android:id="@+id/textViewCaption"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Welcome to our Twitter Game!"
+        android:gravity="center"
+        android:textSize="25dp"
+        android:textColor="@color/tw__blue_default"
+        android:layout_marginTop="10dp"/>
+
+    <ImageView
+        android:id="@+id/userImageProfile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        app:srcCompat="@android:drawable/sym_def_app_icon" />
+
+    <TextView
+        android:id="@+id/textViewUsername"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/no_active_user"
+        android:textColor="@color/tw__blue_default"
+        android:textSize="25dp"
+        android:gravity="center"
+        android:layout_marginTop="5dp"/>
+
+    <TextView
+        android:id="@+id/textViewUserInfo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/no_information"
+        android:gravity="center"
+        android:layout_marginTop="5dp"
+        android:textColor="@color/tw__composer_black"/>
+
+    <Button
+        android:id="@+id/followersBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/get_followers_info"
+        android:textAllCaps="false"/>
+
+    <ListView
+        android:id="@+id/listView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/tw__blue_default"/>
+
+</LinearLayout>
